@@ -1,0 +1,30 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule","<Reachability.module>"]
+  "test": ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule","<Reachability.module>"]
+  "Reachability.module": ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule","<Reachability.module>"]
+default: "main"
+commands: 
+  "<C.Reachability.module>":
+    tool: phony
+    inputs: ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule"]
+    outputs: ["<Reachability.module>"]
+
+  "C.Reachability.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Reachability"
+    module-output-path: "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule"
+    inputs: ["/Users/sergiocecarini/Reachability.swift/Sources/Reachability.swift"]
+    outputs: ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability.swift.o","/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.swiftmodule"]
+    import-paths: ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build"
+    objects: ["/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-module-cache-path","/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/sergiocecarini/Reachability.swift/Sources/Reachability.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/master.swiftdeps"
+  },
+  "/Users/sergiocecarini/Reachability.swift/Sources/Reachability.swift": {
+    "dependencies": "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability.d",
+    "object": "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability.swift.o",
+    "swiftmodule": "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability~partial.swiftmodule",
+    "swift-dependencies": "/Users/sergiocecarini/Reachability.swift/.build/x86_64-apple-macosx10.10/debug/Reachability.build/Reachability.swiftdeps"
+  }
+}

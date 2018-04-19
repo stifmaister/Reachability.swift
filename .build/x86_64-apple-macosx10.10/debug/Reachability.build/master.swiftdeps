@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "4b1f09c9b42a451a8724a6a07855f38c"
+build_time: [1524166498, 421260000]
+inputs:
+  "/Users/sergiocecarini/Reachability.swift/Sources/Reachability.swift": [1524166387, 0]
